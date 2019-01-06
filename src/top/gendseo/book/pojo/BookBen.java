@@ -14,6 +14,11 @@ public class BookBen {
 	public void setRows(List<Book> rows) {
 		this.rows = rows;
 	}
+
+	public void setTotal(String valueOf) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 

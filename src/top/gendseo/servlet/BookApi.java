@@ -37,7 +37,7 @@ public class BookApi extends HttpServlet {
 	    request.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
 		try {
-			out.write(BookDao.query());
+			out.write(BookDao.Query());
 			out.flush();
 			out.close();
 		} catch (ClassNotFoundException | SQLException e) {
